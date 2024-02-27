@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+#root {
+  height: calc(100vh - 96px);
+  padding: 48px 0;
+  background-color: rgb(50, 50, 50);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3개의 열, 각 열의 너비는 100px */
+  row-gap: 16px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.normal-text {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.normal-text.on {
+  color: white;
+}
+
+.second {
+  font-size: 24px;
+  color: white;
+}
